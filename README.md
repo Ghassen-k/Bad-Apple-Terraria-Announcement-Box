@@ -1,5 +1,6 @@
 # Bad Apple Terraria Announcement Box
 ![lena](https://github.com/Ghassen-k/Bad-Apple-Terraria-Announcement-Box/assets/167965505/84621257-4dcd-4f77-ac5a-1a5fd4040e71)
+![flan](https://github.com/Ghassen-k/Bad-Apple-Terraria-Announcement-Box/assets/167965505/fb4a505c-cbe3-4fc1-a353-0cc25ce2f76e)
 
  The code I used for Bad Apple  in Terraria using announcement boxes.
 You do not need terraria but the formatting is terraria specific.
