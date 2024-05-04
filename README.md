@@ -18,4 +18,4 @@ You do not need terraria but the formatting is terraria specific.
 **Notes**
 
 This code is unoptimised. 
-It's unclean and missing ALOT of comments but it'S so easy to understand i dont think it needs them.
+It's unclean and missing ALOT of comments but it's so easy to understand i dont think it needs them.
