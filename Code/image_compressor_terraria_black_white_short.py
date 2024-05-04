@@ -7,7 +7,6 @@ from pathlib import Path
 
 
 def blacken(image):
-    """Convert an image to colored blocks format."""
     height, width = image.shape  # Get image dimensions (height x width)
     for y in range(height):
         for x in range(width):
@@ -31,20 +30,15 @@ folder_path = Path('frames')
 for file_path in folder_path.iterdir():
     # Check if the current path is a regular file
     if file_path.is_file():
-        # Process the file here (e.g., print its name)
-        print(file_path.name)
-
     
-    # reads image 'opencv-logo.png' as grayscale
-    img = cv2.imread('frames/'+file_path.name, 0) 
-    img_bw = blacken(img)
-    plt.imshow(img, cmap='gray')
-    
-    
-    frame_counter = 0
-    line_reset = 1
-    height, width = img_bw.shape
-    
+        # reads images as grayscale
+        img = cv2.imread('frames/'+file_path.name, 0) 
+        img_bw = blacken(img)
+            
+        frame_counter = 0
+        line_reset = 1
+        height, width = img_bw.shape
+        
     
     
     
